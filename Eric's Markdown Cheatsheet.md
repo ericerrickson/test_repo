@@ -96,9 +96,6 @@ _Underlined Text_
 [I'm a relative reference to a repository file](../blob/master/LICENSE)
 ```
 
-Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
 ```cs
 Inline-style:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
@@ -151,13 +148,3 @@ Reference-style:
 [logo]: https://avatars.githubusercontent.com/u/36175119?v=4 "I bet it has its own gravity!"
 ```
 ---
-<a href="https://www.youtube.com/watch?v=3R_xcHwdixY
-" target="_blank"><img src="https://www.youtube.com/watch?v=3R_xcHwdixY/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
----
-
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=qfVo0GylTic)](https://www.youtube.com/watch?v=qfVo0GylTic)
-
-
-
