@@ -10,16 +10,69 @@
 
 Regular text
 
-**Bold Text** == `**Bold Text**`
+**Bold Text**
 
-*Italic Text* == `*Italic Text*`
+```
+**Bold Text**
+```
 
-_Underlined Text_ == `_Underlined Text_`
+*Italic Text*
 
-1. This is an ordered list. It begins with: **'1.'** and ends with **TWO SPACES**  
-1.1. and the next level begins with '**1.1**'  
-1.2 and the next level begins with '**1.2**' and so on.
+```
+*Italic Text*
+```
+
+_Underlined Text_
+
+```
+_Underlined Text_
+```
+
+> Blockquote
+
+```
+> Blockquote
+```
+
+### Lists
+
+---
+
+1. Hi, I'm an ordered list!  
+    1. *and I am a sub-heading!*  
+        1. **Gosh, isn't this fun?**  
+        1. I think that's enough.
 2. Not much to it.
+
+---
+
++ And this is an unordered list
++ Not much here either  
+  + unless you like subheadings  
+    + then you'll love this  
+      + Much order, such wow
+
+---
+
+### Code
+
+```Markdown
+
+1. Hi, I'm an ordered list!  
+    1. *and I am a sub-heading!*  
+        1. **Gosh, isn't this fun?**  
+        1. I think that's enough.
+2. Not much to it.
+
+---
+
++ And this is an unordered list
++ Not much here either  
+  + unless you like subheadings  
+    + then you'll love this  
+      + Much order, such wow
+
+```
 
 ---
 
@@ -27,7 +80,7 @@ _Underlined Text_ == `_Underlined Text_`
 
 [I'm an inline-style link](https://www.google.com)
 
-```cs
+```
 [I'm an inline-style link](https://www.google.com)
 ```
 
@@ -50,6 +103,7 @@ Inline-style:
 Inline-style:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ```
+
 ---
 
 ### Codeblocks and fencing
@@ -63,6 +117,7 @@ def main():
     """ Main entry point of the app """
     print("hello world")
 ```
+
 Begin with three backticks and the language, like **```Python**,
 then a newline and your code, closed with a newline and three backticks.
 
@@ -70,4 +125,39 @@ then a newline and your code, closed with a newline and three backticks.
  ```Python
  Your code here...
 ` ``
- ``` 
+ ```
+
+---
+
+### Images
+
+Inline-style:
+![alt text](https://avatars.githubusercontent.com/u/36175119?v=4 "Look at the head on that man!")
+
+Reference-style:
+![alt text][logo]
+
+[logo]: https://avatars.githubusercontent.com/u/36175119?v=4 "I bet it has its own gravity!"
+
+### Code
+
+```CS
+Inline-style:
+![alt text](https://avatars.githubusercontent.com/u/36175119?v=4 "Look at the head on that man!")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://avatars.githubusercontent.com/u/36175119?v=4 "I bet it has its own gravity!"
+```
+---
+<a href="https://www.youtube.com/watch?v=3R_xcHwdixY
+" target="_blank"><img src="https://www.youtube.com/watch?v=3R_xcHwdixY/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+---
+
+[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=qfVo0GylTic)](https://www.youtube.com/watch?v=qfVo0GylTic)
+
+
+
